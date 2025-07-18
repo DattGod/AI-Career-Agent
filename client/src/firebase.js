@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCq5Py4Wup9bDQjgezv-LaIVw-hsRHuu_M",
-  authDomain: "ai-career-agent-a6d81.firebaseapp.com",
-  projectId: "ai-career-agent-a6d81",
-  storageBucket: "ai-career-agent-a6d81.firebasestorage.app",
-  messagingSenderId: "1074276047765",
-  appId: "1:1074276047765:web:efa735052e1ddceaeaf49c",
-  measurementId: "G-9CKCHEK42R"
+  apiKey: "Enter Your Key",
+  authDomain: "As per your app",
+  projectId: "As per your app",
+  storageBucket: "As per your app",
+  messagingSenderId: "As per your app",
+  appId: "As per your app",
+  measurementId: "As per your app"
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app); // ✅ Only declare once and export
